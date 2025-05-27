@@ -1,32 +1,51 @@
 {
-  "id": "b57b7d54-6799-471b-99b4-43d259c39326",
-  "name": "ALProject10",
-  "publisher": "Default Publisher",
-  "version": "1.0.0.4",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "26.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "15.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "id": "b57b7d54-6799-471b-99b4-43d259c39326",
+    "name": "ALProject10",
+    "publisher": "Default Publisher",
+    "version": "1.0.0.5",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "CF9498A6-53B5-4D2F-B3FC-36B8BBC38DB2",
+            "name": "ALProject11",
+            "publisher": "Default Publisher",
+            "version": "1.0.0.0"
+        },
+        {
+            "id": "3099FFC7-4CF7-4DF6-9B96-7E4BC2BB587C",
+            "name": "Subscription Billing",
+            "publisher": "Microsoft",
+            "version": "26.1.33404.34492"
+        },
+        {
+            "id": "70912191-3C4C-49FC-A1DE-BC6EA1AC9DA6",
+            "name": "Intrastat Core",
+            "publisher": "Microsoft",
+            "version": "26.1.33404.34492"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.1.33404.34492",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "15.0",
+    "features": [
+        "NoImplicitWith"
+    ]
 }

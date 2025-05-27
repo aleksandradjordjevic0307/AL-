@@ -5,7 +5,7 @@
 //ne bude obavezno za unos,
 //bude vidljivo i u listi kupaca (Customer List), radi lakšeg prepoznavanja kontakta.
 
-tableextension 50101 CustomerExt extends Customer
+tableextension 50101 CustomerExt2 extends Customer
 {
     fields
     {

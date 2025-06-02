@@ -21,6 +21,7 @@ tableextension 50117 PIBAndCustomerTypeExt extends Customer
         //zadatak 8
         if (StrLen(rec.PIB) <> 9) and (rec.PIB <> '') then
             Error('PIB mora biti dugacak tacno 9 karaktera');
+
     end;
 
     trigger OnBeforeModify()
